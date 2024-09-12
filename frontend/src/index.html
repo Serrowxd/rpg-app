@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen flex">
+    <!-- Sidebar -->
+    <div class="flex flex-col w-64 h-full bg-gray-800">
+      <div
+        class="flex items-center justify-center h-16 text-white text-2xl font-bold bg-gray-900"
+      >
+        Username
+      </div>
+      <nav class="flex flex-col flex-1 px-4 space-y-1">
+        <a
+          href="#"
+          class="flex items-center px-4 py-2 mt-5 text-gray-300 hover:bg-gray-700 hover:text-white"
+        >
+          <span class="ml-2">Character</span>
+        </a>
+        <a
+          href="#"
+          class="flex items-center px-3 py-2 text-gray-300 hover:bg-gray-700 hover:text-white"
+        >
+          <span class="ml-2">Inventory</span>
+        </a>
+        <a
+          href="#"
+          class="flex items-center px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white"
+        >
+          <span class="ml-2">Profile</span>
+        </a>
+        <a
+          href="#"
+          class="flex items-center px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white"
+        >
+          <span class="ml-2">Settings</span>
+        </a>
+        <a
+          href="#"
+          class="flex items-center px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white"
+        >
+          <span class="ml-2">Logout</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Content area -->
+    <div class="flex-1 p-10 bg-gray-100">
+      <h1 class="text-3xl font-bold">Welcome to the Dashboard</h1>
+      <p class="mt-4">This is your content area.</p>
+    </div>
+  </body>
+</html>

@@ -99,7 +99,7 @@ app.get('/api/character/:username', async (req, res) => {
 });
 
 // ## Boilerplate AI Proxy Request
-app.post('api/generate', async (req, res) => {
+app.post('/api/generate', async (req, res) => {
 	const { prompt } = req.body;
 	
 	try {
